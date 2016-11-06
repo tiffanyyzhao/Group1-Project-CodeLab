@@ -1,0 +1,183 @@
+div {
+    position: relative;
+    font-family: 'Jaldi', sans-serif;
+    font-size:15px;
+    
+}
+
+img {
+    margin:auto;
+}
+
+#header{
+    height:150px;
+    margin:auto;
+    text-align: center;
+    font-size: 25px;
+    padding:10px;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+    font-family: Pacifico, cursive;
+}
+
+.navbar ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px 50px;
+}
+
+.navbar ul a:link {
+    text-decoration:none;
+    display:inline-block;
+    width: 100%;
+    color:#353C8A;
+    text-align:center;
+    padding: 5px 2px; 
+}
+
+.navbar li a:hover {
+    color: #d6b9f0;
+    transition:1s;
+}
+
+.welcome {
+    width:30%;
+    margin:auto;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.welcome h1 {
+    font-size:20px;
+    
+    
+}
+.hours {
+    width:20%;
+    border:1px solid black;
+    text-align:center;
+    margin:auto;
+    
+}
+
+.hours li{
+   list-style-type: none;
+   position:relative;
+   text-align:left;
+   left:35px;
+}
+
+.map 
+{
+    display:block;
+    text-align:center;
+    margin:30px;
+    padding-bottom:40px;
+    
+}
+.menu-page {
+    margin:auto;
+    text-align:center;
+    height:300px;
+    padding-bottom:350px;
+}
+
+.menu-page h1 {
+    font-size:20px;
+}
+
+
+.drink {
+    position:absolute;
+    display:inline-block;
+    width:25%;
+    margin-left: -340px;
+}
+
+.drink h1 {
+    font-size:17px;
+}
+
+.food {
+    position:absolute;
+    display:inline-block;
+    width:25%;
+    margin-left: 10px;
+
+}
+
+.food h1 {
+    font-size:17px;
+}
+
+.shophead {
+    width: 100%;
+    display: block;
+    text-align:center;
+}
+
+.shophead h1 {
+    font-size:20px;
+}
+.shophead h3 {
+    font-size:17px;
+}
+.shop-items {
+    text-align:center;
+    margin-bottom:70px;
+    
+}
+
+.shop1 {
+    
+    display:inline-block; 
+    
+}
+
+.shop2 {
+    display:inline-block; 
+    
+}
+
+.shop3 {
+    display:inline-block; 
+    margin-right:30px;
+    
+}
+
+.shop4 {
+    display:inline-block; 
+    
+}
+
+.mission {
+    width:40%;
+    text-align:center;
+    margin:auto;
+    margin-bottom:90px;
+}
+
+.mission h1 {
+    font-size:20px;
+}
+
+.footer {
+    clear: both;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    background-color: #efefef;
+    text-align: center;
+    height:50px;
+}
